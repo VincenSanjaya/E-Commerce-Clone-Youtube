@@ -19,8 +19,9 @@ class SplashContent extends StatelessWidget {
         Text(
           "V-Shop",
           style: TextStyle(
-            fontSize: getProportionScreenWidth(28),
+            fontSize: getProportionScreenWidth(15 ),
             color: kPrimaryColor,
+            fontFamily: "Muli"
 
           ),
         ),

@@ -1,3 +1,4 @@
+import 'package:cloning_ecommerce_youtube/screens/sign_in/sign_in_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../constants.dart';
@@ -6,7 +7,7 @@ import '../size_config.dart';
 
 class DefaultButton extends StatelessWidget {
   const DefaultButton({
-    Key? key, required this.text,
+    Key? key, required this.text, required Null Function() press,
   }) : super(key: key);
 
   final String text;
@@ -17,14 +18,22 @@ class DefaultButton extends StatelessWidget {
     return SizedBox(
       width: double.infinity,
       height: getProportionScreenHeight(56),
-      child: FlatButton(
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-          color: kPrimaryColor,
-          onPressed: () {} ,
+      child: TextButton(
+          style: ButtonStyle(
+              backgroundColor: MaterialStateProperty.all(kPrimaryColor),
+              shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                  RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20.0),
+                  )
+              )
+          ),
+          onPressed: () {
+
+          } ,
           child: Text(
             text,
             style: TextStyle(
-                fontSize: getProportionScreenWidth(18),
+                fontSize: getProportionScreenWidth(10),
                 color: Colors.white),
           )),
     );

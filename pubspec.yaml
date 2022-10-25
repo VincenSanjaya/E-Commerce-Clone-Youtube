@@ -34,7 +34,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  flutter_svg: ^0.17.4
+  flutter_svg: ^1.1.4
+  get:
   provider: ^4.3.1
 
 dev_dependencies:
@@ -92,40 +93,40 @@ flutter:
      - assets/icons/Bill Icon.svg
      - assets/icons/Call.svg
      - assets/icons/Camera Icon.svg
-     -  assets/icons/Cart Icon.svg
-     -  assets/icons/Cash.svg
-     -  assets/icons/Chat bubble Icon.svg
-     -  assets/icons/Check mark rounde.svg
-     -  assets/icons/Close.svg
-     -  assets/icons/Conversation.svg
-     -  assets/icons/Discover.svg
-     -  assets/icons/Error.svg
-     -  assets/icons/facebook-2.svg
-     -  assets/icons/Flash Icon.svg
-     -  assets/icons/Game Icon.svg
-     -  assets/icons/Gift Icon.svg
-     -  assets/icons/google-icon.svg
-     -  assets/icons/Heart Icon.svg
-     -  assets/icons/Heart Icon_2.svg
-     -  assets/icons/Location point.svg
-     -  assets/icons/Lock.svg
-     -  assets/icons/Log out.svg
-     -  assets/icons/Mail.svg
-     -  assets/icons/Parcel.svg
-     -  assets/icons/Phone.svg
-     -  assets/icons/Plus Icon.svg
-     -  assets/icons/Question mark.svg
-     -  assets/icons/receipt.svg
-     -  assets/icons/remove.svg
-     -  assets/icons/Search Icon.svg
-     -  assets/icons/Settings.svg
-     -  assets/icons/Shop Icon.svg
-     -  assets/icons/Star Icon.svg
-     -  assets/icons/Success.svg
-     -  assets/icons/Trash.svg
-     -  assets/icons/twitter.svg
-     -  assets/icons/User.svg
-     -  assets/icons/User Icon.svg
+     - assets/icons/Cart Icon.svg
+     - assets/icons/Cash.svg
+     - assets/icons/Chat bubble Icon.svg
+     - assets/icons/Check mark rounde.svg
+     - assets/icons/Close.svg
+     - assets/icons/Conversation.svg
+     - assets/icons/Discover.svg
+     - assets/icons/Error.svg
+     - assets/icons/facebook-2.svg
+     - assets/icons/Flash Icon.svg
+     - assets/icons/Game Icon.svg
+     - assets/icons/Gift Icon.svg
+     - assets/icons/google-icon.svg
+     - assets/icons/Heart Icon.svg
+     - assets/icons/Heart Icon_2.svg
+     - assets/icons/Location point.svg
+     - assets/icons/Lock.svg
+     - assets/icons/Log out.svg
+     - assets/icons/Mail.svg
+     - assets/icons/Parcel.svg
+     - assets/icons/Phone.svg
+     - assets/icons/Plus Icon.svg
+     - assets/icons/Question mark.svg
+     - assets/icons/receipt.svg
+     - assets/icons/remove.svg
+     - assets/icons/Search Icon.svg
+     - assets/icons/Settings.svg
+     - assets/icons/Shop Icon.svg
+     - assets/icons/Star Icon.svg
+     - assets/icons/Success.svg
+     - assets/icons/Trash.svg
+     - assets/icons/twitter.svg
+     - assets/icons/User.svg
+     - assets/icons/User Icon.svg
 
 
 

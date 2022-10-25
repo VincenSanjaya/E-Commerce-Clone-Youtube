@@ -1,7 +1,7 @@
 import 'package:cloning_ecommerce_youtube/constants.dart';
+import 'package:cloning_ecommerce_youtube/screens/sign_in/sign_in_screen.dart';
 import 'package:cloning_ecommerce_youtube/size_config.dart';
 import 'package:flutter/material.dart';
-
 import '../../../components/default_button.dart';
 import '../components/splash_content.dart';
 
@@ -63,9 +63,28 @@ class _BodyState extends State<Body> {
                             splashData.length, (index) => buildDot(index: index)),
                       ),
                       Spacer(flex: 3,),
-                      DefaultButton(
-                        text: "Continue",
-                      ),
+                    SizedBox(
+                      width: double.infinity,
+                      height: getProportionScreenHeight(56),
+                      child: TextButton(
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all(kPrimaryColor),
+                          shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                              RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(20.0),
+                              )
+                          )
+                        ),
+                          onPressed: () {
+                            Navigator.pushNamed(context, SignInScreen.routeName);
+                          } ,
+                          child: Text(
+                            "Continue",
+                            style: TextStyle(
+                                fontSize: getProportionScreenWidth(10),
+                                color: Colors.white),
+                          )),
+                    ),
                       Spacer(),
                     ],
                   ),
